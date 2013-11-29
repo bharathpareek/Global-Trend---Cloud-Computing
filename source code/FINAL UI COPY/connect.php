@@ -3,7 +3,7 @@ putenv("ORACLE_HOME=/usr/local/libexec/oracle/app/oracle/product/11.2.0/client_1
 
 // KUSHAL'S CONNECTION
 $connection = oci_connect($username = 'kkewlani',
-                          $password = 'cloudtrend',
+                          $password = '',
                           $connection_string = '//oracle.cise.ufl.edu/orcl');
 
 if (!$connection) {
@@ -17,7 +17,7 @@ $e = oci_error();
 
 // SOHAM'S CONNECTION
 $connectionS = oci_connect($username = 'soham',
-                          $password = 'cloudtrend',
+                          $password = '',
                           $connection_string = '//oracle.cise.ufl.edu/orcl');
 
 if (!$connectionS) {
@@ -31,7 +31,7 @@ $e = oci_error();
 
 // NEHA'S CONNECTION
 $connectionN = oci_connect($username = 'neha',
-                          $password = 'Sangeeta1966',
+                          $password = '',
                           $connection_string = '//oracle.cise.ufl.edu/orcl');
 
 if (!$connectionN) 
@@ -47,7 +47,7 @@ $e = oci_error();
 
 
 $connectionB = oci_connect($username = 'bpareek',
-                          $password = 'cloudtrend',
+                          $password = '',
                           $connection_string = '//oracle.cise.ufl.edu/orcl');
 
 if (!$connectionB) {
