@@ -2,7 +2,7 @@
 <?php include('connect.php'); ?>
 <?php
 //header('Content-type: application/json');
-$conn = oci_connect($username = 'kkewlani', $password = 'cloudtrend', $connection_string = '//oracle.cise.ufl.edu/orcl');
+$conn = oci_connect($username = 'kkewlani', $password = '', $connection_string = '//oracle.cise.ufl.edu/orcl');
 putenv("ORACLE_HOME=/usr/local/libexec/oracle/app/oracle/product/11.2.0/client_1");
 $searchTerm = $_GET['term'];
 $results=array();
